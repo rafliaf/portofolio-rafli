@@ -1,7 +1,7 @@
 @tailwind base;
-@tailwind component;
+@tailwind components;
 @tailwind utilities;
 
-*{
-  font-family: Outfit;
+* {
+  font-family: "Outfit", sans-serif; /* You can apply this to * for fallback */
 }
