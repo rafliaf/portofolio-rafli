@@ -12,6 +12,7 @@ const Header = () => {
           transition={{ duration: 0.8, type: 'spring', stiffness: 100 }}>
             <Image src={assets.profile_img} alt='' className='rounded-full w-32'/>
         </motion.div>
+
         <motion.h3
         initial={{ y: -20, opacity: 0}}
         whileInView={{ y:0, opacity: 1}}
@@ -19,6 +20,7 @@ const Header = () => {
         className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'>Hi! I'm Rafli AF 
             <Image src={assets.hand_icon} alt='' className='w-6'/>
         </motion.h3>
+        
         <motion.h1 
         initial={{ y: -30, opacity: 0}}
         whileInView={{ y:0, opacity: 1}}

@@ -22,15 +22,18 @@ export default function Home() {
   }, [])
 
   useEffect(() => {
-    if(isDarkMode){
-      document.documentElement.classList.add('dark')
+    const root = document.documentElement;
+    root.classList.add('scroll-smooth'); // force apply after hydration
+
+    if (isDarkMode) {
+      root.classList.add('dark');
       localStorage.theme = 'dark';
-    }
-    else{
-      document.documentElement.classList.remove('dark')
+    } else {
+      root.classList.remove('dark');
       localStorage.theme = '';
     }
-  }, [isDarkMode])
+  }, [isDarkMode]);
+
 
   return (
     <>

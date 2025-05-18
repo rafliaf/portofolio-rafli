@@ -5,3 +5,7 @@
 * {
   font-family: "Outfit", sans-serif; /* You can apply this to * for fallback */
 }
+
+html {
+  scroll-behavior: smooth;
+}

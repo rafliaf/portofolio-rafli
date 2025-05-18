@@ -9,9 +9,9 @@ const config = {
   theme: {
     extend: {
       colors: {
-        lightHover: '#fcf4ff',
-        darkHover: '#2a004a',
-        darkTheme: '#11001f',
+        lightHover: '#fffcf7',
+        darkHover: '#77747a',
+        darkTheme: '#2f3030',
       },
       fontFamily: {
         Outfit: ["Outfit", "sans-serif"],
@@ -26,7 +26,7 @@ const config = {
       }
     },
   },
-  darkMode: 'selector',
+  darkMode: 'class',
   plugins: [],
 };
 
