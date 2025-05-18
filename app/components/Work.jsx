@@ -1,9 +1,21 @@
-import { assets, workData } from '@/assets/assets'
+import { assets, workData } from '../../assets/assets'
+import { useRouter } from 'next/navigation'
 import { motion } from 'motion/react'
 import Image from 'next/image'
 import React from 'react'
 
 const Work = ({isDarkMode}) => {
+    const router = useRouter();
+
+    const onClickData = (project) => {
+        console.log("Clicked project:", project);
+        if (project.title === 'UIIKunjungan') {
+            router.push('/kunjungan') // 🔁 route to frontend
+        } else if (project.title === 'UIIRuang') {
+            router.push('/ruang')
+        }
+    }
+
   return (
     <motion.div 
     initial={{ opacity: 0 }}
@@ -44,6 +56,7 @@ const Work = ({isDarkMode}) => {
             <motion.div 
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}
+                onClick={() => onClickData(project)}
                 key={index} style={{ backgroundImage: `url(${project.bgImage})` }} className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group'>
                     <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7'>                        
                         <div>
