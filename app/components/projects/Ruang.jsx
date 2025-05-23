@@ -1,8 +1,12 @@
 import React from 'react'
+import Tes from '../Tes'
 
 const Ruang = () => {
   return (
-    <div>Ruang</div>
+    <div>
+        <Tes />
+        Ruang
+    </div>
   )
 }
 
