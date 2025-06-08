@@ -35,7 +35,8 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
-import ss_1 from './ss-1.png';
+import landing_page_kunjungan from './landing-page-kunjungan.png';
+import page_pengajuan_kunjungan from './page-pengajuan-kunjungan.png'
 
 export const assets = {
     user_image,
@@ -75,7 +76,8 @@ export const assets = {
     send_icon,
     right_arrow_bold,
     right_arrow_bold_dark,
-    ss_1
+    landing_page_kunjungan,
+    page_pengajuan_kunjungan
 };
 
 export const workData = [
