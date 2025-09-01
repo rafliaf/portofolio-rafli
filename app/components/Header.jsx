@@ -26,7 +26,7 @@ const Header = () => {
         whileInView={{ y:0, opacity: 1}}
         transition={{ duration: 0.8, delay: 0.5 }}
         className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
-            Frontend web developer based in Yogyakarta.
+            Frontend web developer
         </motion.h1>     
 
         <motion.p 
@@ -34,7 +34,7 @@ const Header = () => {
         whileInView={{opacity: 1}}
         transition={{ duration: 0.6, delay: 0.7 }}
         className='max-2xl mx-auto font-Ovo'>
-            I am a 23 years old frontend developer from Klaten Jawa Tengah, 2 years experienced with Angular
+            I am a 23 years old frontend developer, 2 years experienced with Angular
         </motion.p>
 
         {/* BTN */}

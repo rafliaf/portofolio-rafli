@@ -32,7 +32,7 @@ const Services = () => {
         whileInView={{ opacity: 1}}
         transition={{ delay:0.7, duration: 0.5}} 
         className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-            I am a frontend developer from Klaten Jawa Tengah, Indonesia with 2 years of experience in Badan Sistem Informasi UII.
+            I am a frontend developer, Indonesia with 2 years of experience in Badan Sistem Informasi UII.
         </motion.p>
         
         <motion.div 
