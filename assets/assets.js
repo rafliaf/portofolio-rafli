@@ -37,6 +37,7 @@ import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import landing_page_kunjungan from './landing-page-kunjungan.png';
 import page_pengajuan_kunjungan from './page-pengajuan-kunjungan.png'
+import pengajuan_detail from './pengajuan-detail.png'
 
 export const assets = {
     user_image,
@@ -77,7 +78,8 @@ export const assets = {
     right_arrow_bold,
     right_arrow_bold_dark,
     landing_page_kunjungan,
-    page_pengajuan_kunjungan
+    page_pengajuan_kunjungan,
+    pengajuan_detail
 };
 
 export const workData = [

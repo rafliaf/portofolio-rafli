@@ -1,12 +1,4 @@
-// app/frontend/page.jsx
+// app/kunjungan/page.jsx
+'use client'
 import Kunjungan from "../components/projects/Kunjungan";
-
-const KunjunganPage = () => {
-    return (
-        <div>
-            <Kunjungan />
-        </div>
-    );
-};
-
-export default KunjunganPage;
+export default function KunjunganPage(){ return <Kunjungan/> }
