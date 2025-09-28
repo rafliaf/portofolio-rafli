@@ -35,9 +35,10 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
-import landing_page_kunjungan from './landing-page-kunjungan.png';
-import page_pengajuan_kunjungan from './page-pengajuan-kunjungan.png'
-import pengajuan_detail from './pengajuan-detail.png'
+import landing_page_kunjungan from './visit-guest/landing-page-kunjungan.png';
+import page_pengajuan_kunjungan from './visit-guest/page-pengajuan-kunjungan.png'
+import pengajuan_detail from './visit-guest/pengajuan-detail.png'
+import cek_pengajuan from './visit-guest/cek-pengajuan.png'
 
 export const assets = {
     user_image,
@@ -79,7 +80,8 @@ export const assets = {
     right_arrow_bold_dark,
     landing_page_kunjungan,
     page_pengajuan_kunjungan,
-    pengajuan_detail
+    pengajuan_detail,
+    cek_pengajuan
 };
 
 export const workData = [
@@ -113,7 +115,7 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, Typescript, Angular, React Js, Next Js' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Bachelor Informatic in Universitas Islam Indonesia' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
