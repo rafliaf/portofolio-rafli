@@ -108,7 +108,7 @@ export default function Kunjungan() {
         <div className="mx-auto mt-6 w-full max-w-[1000px] h-[520px] overflow-hidden rounded-xl shadow-lg">
           <iframe
             className="w-full h-full"
-            src="https://www.youtube.com/embed/NKUKWsuCFBQ"
+            src="https://youtu.be/syMpX5U4n8E?si=lUvDGdRZWLnD4THl"
             title="Demo Aplikasi"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
