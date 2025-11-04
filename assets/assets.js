@@ -105,6 +105,11 @@ export const workData = [
         description: 'Project frontend',
         bgImage: '/work-3.png',
     },
+    {
+        title: 'Backend',
+        description: 'Project backend',
+        bgImage: '/work-3.png',
+    },
 ]
 
 export const serviceData = [
@@ -115,7 +120,7 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, Typescript, Angular, React Js, Next Js' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, Typescript, Angular, React Js, Next Js. Node.Js, Express' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Bachelor Informatic in Universitas Islam Indonesia' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];

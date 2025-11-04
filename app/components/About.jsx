@@ -44,8 +44,7 @@ const About = ({isDarkMode}) => {
             whileInView={{ opacity: 1}}
             transition={{ duration: 0.6, delay: 0.8}}
             className='flex-1'>
-                <p className='mb-10 max-w-2xl font-Ovo'>
-                    I was a frontend developer at the Badan Sistem Informasi - UII for 2 years. Skilled in building responsive and efficient websites using Angular. Accustomed to working in Agile teams and used to collaborating with backend, UI/UX, and QA teams to create high-quality products. Have a high learning spirit and adaptive to the latest technological developments.
+                <p className='mb-10 max-w-2xl font-Ovo'> I was a Software Engineer at the Badan Sistem Informasi - UII for 2 years. Skilled in building responsive and efficient websites using Angular, as well as developing backend services with Node.js and Express. Experienced in UI/UX design principles to create intuitive and user-friendly interfaces. Accustomed to working in Agile teams and collaborating with backend, UI/UX, and QA teams to deliver high-quality products. Highly motivated to learn and adaptive to the latest technological developments.                
                 </p>
 
                 <motion.ul 
