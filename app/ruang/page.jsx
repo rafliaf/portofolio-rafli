@@ -1,12 +1,4 @@
-// app/frontend/page.jsx
+// app/kunjungan/page.jsx
+'use client'
 import Ruang from "../components/projects/Ruang";
-
-const RuangPage = () => {
-    return (
-        <div>
-            <Ruang />
-        </div>
-    );
-};
-
-export default RuangPage;
+export default function RuangPage(){ return <Ruang/> }

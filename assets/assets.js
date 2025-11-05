@@ -39,6 +39,10 @@ import landing_page_kunjungan from './visit-guest/landing-page-kunjungan.png';
 import page_pengajuan_kunjungan from './visit-guest/page-pengajuan-kunjungan.png'
 import pengajuan_detail from './visit-guest/pengajuan-detail.png'
 import cek_pengajuan from './visit-guest/cek-pengajuan.png'
+import index_peminjaman_ruang from './uii-ruang/index-peminjaman-ruang.png'
+import index_tabel_peminjaman_ruang from './uii-ruang/index-tabel-peminjaman-ruang.png'
+import kalender_ketersediaan_peminjaman_ruang from './uii-ruang/kalender-ketersediaan-ruang.png'
+import form_peminjaman_ruang from './uii-ruang/form-peminjaman-ruang.png'
 
 export const assets = {
     user_image,
@@ -81,7 +85,11 @@ export const assets = {
     landing_page_kunjungan,
     page_pengajuan_kunjungan,
     pengajuan_detail,
-    cek_pengajuan
+    cek_pengajuan,
+    index_peminjaman_ruang,
+    index_tabel_peminjaman_ruang,
+    kalender_ketersediaan_peminjaman_ruang,
+    form_peminjaman_ruang,
 };
 
 export const workData = [
