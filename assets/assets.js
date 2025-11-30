@@ -103,21 +103,21 @@ export const workData = [
         description: 'Aplikasi penyewaan ruang di UII',
         bgImage: '/work-2.png',
     },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
-    },
-    {
-        title: 'Frontend',
-        description: 'Project frontend',
-        bgImage: '/work-3.png',
-    },
-    {
-        title: 'Backend',
-        description: 'Project backend',
-        bgImage: '/work-3.png',
-    },
+    // {
+    //     title: 'UI/UX designing',
+    //     description: 'UI/UX Design',
+    //     bgImage: '/work-4.png',
+    // },
+    // {
+    //     title: 'Frontend',
+    //     description: 'Project frontend',
+    //     bgImage: '/work-3.png',
+    // },
+    // {
+    //     title: 'Backend',
+    //     description: 'Project backend',
+    //     bgImage: '/work-3.png',
+    // },
 ]
 
 export const serviceData = [
