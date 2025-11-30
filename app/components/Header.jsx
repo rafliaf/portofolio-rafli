@@ -26,7 +26,7 @@ const Header = () => {
         whileInView={{ y:0, opacity: 1}}
         transition={{ duration: 0.8, delay: 0.5 }}
         className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
-            Software Engineer
+            Frontend web developer
         </motion.h1>     
 
         <motion.p 
@@ -34,7 +34,7 @@ const Header = () => {
         whileInView={{opacity: 1}}
         transition={{ duration: 0.6, delay: 0.7 }}
         className='max-2xl mx-auto font-Ovo'>
-            I am a 23 years old software engineer, 2 years experienced at Badan Sistem Informasi - UII
+            I am a 23 years old frontend developer, 2 years experienced with Angular
         </motion.p>
 
         {/* BTN */}
@@ -80,7 +80,7 @@ const Header = () => {
             initial={{ y: 30, opacity: 0}}
             whileInView={{ y:0, opacity: 1}}
             transition={{ duration: 0.6, delay: 1.2 }}
-            href="https://drive.google.com/file/d/12ybn88QHFI0bJ8AmMaUP28SbjkqoDjxV/view?usp=sharing"
+            href="https://drive.google.com/file/d/1hOjpz4HYuquv-Y17bcnuZ9nEleClu1YH/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black'>
