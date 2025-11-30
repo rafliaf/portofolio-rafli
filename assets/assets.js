@@ -39,6 +39,10 @@ import landing_page_kunjungan from './visit-guest/landing-page-kunjungan.png';
 import page_pengajuan_kunjungan from './visit-guest/page-pengajuan-kunjungan.png'
 import pengajuan_detail from './visit-guest/pengajuan-detail.png'
 import cek_pengajuan from './visit-guest/cek-pengajuan.png'
+import index_peminjaman_ruang from './uii-ruang/index-peminjaman-ruang.png'
+import index_tabel_peminjaman_ruang from './uii-ruang/index-tabel-peminjaman-ruang.png'
+import kalender_ketersediaan_peminjaman_ruang from './uii-ruang/kalender-ketersediaan-ruang.png'
+import form_peminjaman_ruang from './uii-ruang/form-peminjaman-ruang.png'
 
 export const assets = {
     user_image,
@@ -81,7 +85,11 @@ export const assets = {
     landing_page_kunjungan,
     page_pengajuan_kunjungan,
     pengajuan_detail,
-    cek_pengajuan
+    cek_pengajuan,
+    index_peminjaman_ruang,
+    index_tabel_peminjaman_ruang,
+    kalender_ketersediaan_peminjaman_ruang,
+    form_peminjaman_ruang,
 };
 
 export const workData = [
@@ -95,16 +103,21 @@ export const workData = [
         description: 'Aplikasi penyewaan ruang di UII',
         bgImage: '/work-2.png',
     },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
-    },
-    {
-        title: 'Frontend',
-        description: 'Project frontend',
-        bgImage: '/work-3.png',
-    },
+    // {
+    //     title: 'UI/UX designing',
+    //     description: 'UI/UX Design',
+    //     bgImage: '/work-4.png',
+    // },
+    // {
+    //     title: 'Frontend',
+    //     description: 'Project frontend',
+    //     bgImage: '/work-3.png',
+    // },
+    // {
+    //     title: 'Backend',
+    //     description: 'Project backend',
+    //     bgImage: '/work-3.png',
+    // },
 ]
 
 export const serviceData = [
@@ -115,7 +128,7 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, Typescript, Angular, React Js, Next Js' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, Typescript, Angular, React Js, Next Js. Node.Js, Express' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Bachelor Informatic in Universitas Islam Indonesia' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
